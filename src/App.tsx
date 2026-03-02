@@ -11,13 +11,13 @@ import Jobs from './pages/Jobs';
 import './index.css';
 
 const pageVariants = {
-  initial: { opacity: 0, y: 18 },
+  initial: { opacity: 0, y: 8 },
   animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -12 },
+  exit: { opacity: 0, y: -6 },
 };
 
 const pageTransition = {
-  duration: 0.35,
+  duration: 0.5,
   ease: 'easeInOut' as const,
 };
 
